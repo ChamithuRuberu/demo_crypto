@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-custom-dark {
+    background-color: rgb(0, 40, 73);
+
+}
+/* Base styling */
+.inner-outer {
+    padding: 0;
+    position: relative;
+    clip-path: polygon(0% 5%, 50% 0%, 100% 5%, 100% 100%, 0% 100%);
+  }
+  
+  /* Adjust clip-path for smaller screens */
+  @media (max-width: 768px) {
+    .inner-outer {
+      clip-path: polygon(0% 3%, 50% 0%, 100% 3%, 100% 100%, 0% 100%);
+    }
+  }
+  
+  /* Adjust clip-path for extra small screens */
+  @media (max-width: 375px) {
+    .inner-outer {
+      clip-path: polygon(0% 1%, 50% 0%, 100% 1%, 100% 100%, 0% 100%);
+    }
+  }
+  
+
+
+
+
+ /* Loading Spinner Styles */
+ .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+.spinner {
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    border-left: 8px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Fade-in Animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slide-in Bottom Animation */
+.slide-in-bottom {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideInBottom 2s forwards;
+}
+
+@keyframes slideInBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hide loading overlay when content is loaded */
+.loaded .loading-overlay {
+    display: none;
+}
