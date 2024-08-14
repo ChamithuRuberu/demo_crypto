@@ -12,9 +12,10 @@
 <body class="overflow-hidden bg-gray-100">
   <div class="fixed inset-0 flex items-center justify-center overflow-hidden gif-container">
     <img
+      id="animal"
       src="img/landing.gif"
       alt="Description of Image"
-      class="object-cover w-full h-full gif"
+      class="object-cover w-full h-full gif animal"
     />
   </div>  
   <div id="overlay" class="overlay">
@@ -24,7 +25,8 @@
     // JavaScript to show the overlay after 4 seconds
     setTimeout(() => {
       document.getElementById('overlay').classList.add('active');
-    }, 3200); // 4 seconds
+      document.getElementById('animal').classList.add('animal-active');
+    }, 4); // 4 seconds
   </script>
 </body>
 </html>

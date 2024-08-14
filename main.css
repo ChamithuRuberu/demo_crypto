@@ -3,7 +3,8 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.75); /* Darken the screen */
   backdrop-filter: blur(10px); /* Apply blur effect */
-  display: none; /* Hidden by default */
+  /* display: none; */
+  opacity: 0;
   align-items: center;
   justify-content: center;
   color: white;
@@ -17,6 +18,45 @@
   opacity: 100;
   visibility: visible;
 }
+
+@keyframes scaleUpDefault {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.animal-active {
+  animation: scaleUpDefault 4s ease-out forwards;
+}
+
+/* @keyframes scaleUpMobile {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+
+/* @media(max-width: 640px) 
+{
+  .animal-active {
+    animation: scaleUpMobile 1s ease-out forwards;
+  }
+}
+
+@media (min-width: 640px) {
+  .animal-active {
+    animation: scaleUp 1s ease-out forwards;
+  }  
+} */
+
+/* .animal-active {
+  transform: scale(1.2);
+} */
 
 
 .zoom-text {
