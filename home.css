@@ -93,3 +93,14 @@
 .loaded .loading-overlay {
     display: none;
 }
+
+.outer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left, .right {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
