@@ -75,7 +75,7 @@
 /* Slide-in Bottom Animation */
 .slide-in-bottom {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(0px);
     animation: slideInBottom 2s forwards;
 }
 
