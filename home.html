@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TRETT</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
     <link href="home.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -14,12 +17,19 @@
       <div class="spinner"></div>
     </div>
 
-    <div class="min-h-screen main-outer bg-black bg-[url('./img/bg.gif')]">
+    <div
+      class="min-h-screen lg:min-w-screen main-outer bg-contain bg-no-repeat bg-black bg-[url('./img/bg.gif')]"
+    >
       <div
         class="w-full p-6 mx-auto font-extrabold text-white rounded-lg pt-14 hero-section sm:w-3/4 md:w-1/2 lg:w-1/2 fade-in"
       >
         <div
+          id="animatedElement"
           class="flex items-center justify-center pt-2 mx-auto mb-4 rounded-full hero-image"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-out-cubic"
         >
           <img
             src="img/hero.png"
@@ -32,18 +42,38 @@
             TIRED TRETT ON TON
           </div>
           <div class="flex flex-wrap justify-center gap-4 main-icon-section">
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
+            <div class="">
+              <a href="https://x.com/tiredtrett">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
+            <div class="">
+              <a href="https://t.me/trettonton">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
+            <div class="">
+              <a href="https://x.com/tiredtrett">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
+            <div class="">
+              <a href="https://x.com/tiredtrett">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
           </div>
         </div>
       </div>
@@ -91,7 +121,7 @@
           <div class="shadow-sm text-blue-950">TRETT</div>
           <div class="drop-shadow-lg right bg-blue-950"></div>
         </div>
-        
+
         <!-- start the vision -->
         <div class="pb-0 text-center md:p-20 lg:p-10 sub-section">
           <div
@@ -101,7 +131,7 @@
           </div>
           <div class="animation-content">
             <div
-              data-aos="slide-right" 
+              data-aos="slide-right"
               class="flex flex-col p-10 lg:flex-row lg:gap-8 lg:items-center lg:justify-around"
             >
               <div class="our-vision-gif">
@@ -116,16 +146,14 @@
               <div
                 class="mt-6 font-extrabold text-white lg:mt-0 lg:ml-6 our-vision-txt lg:w-1/2"
               >
-                an opossum who single-handedly raised four mischievous sons—Pepe,
-                Brett, Andy, and WOLF—in the gritty streets of Brooklyn, our
-                vision is to help everyone rise from poverty. Despite the
-                challenges, Trett’s dedication turned his family's fortunes
-                around, with Pepe and Brett becoming billionaires after years of
-                struggle. Their journey from the streets to success. WITH THEIR
-                KNOWLADGE, TRETT 2024.
+                At Trett, our vision is clear: everyone deserves a shot at
+                success, no matter their past. Our story begins with Trett, a
+                hardworking janitor who, through sheer perseverance, transformed
+                his life. From cleaning floors to launching his own memecoin,
+                Trett’s journey is a powerful testament to overcoming adversity.
               </div>
             </div>
-         
+
             <div
               data-aos="slide-left"
               class="flex flex-col-reverse p-10 lg:flex-row lg:gap-8 lg:items-center lg:justify-around"
@@ -133,14 +161,11 @@
               <div
                 class="mt-6 font-extrabold text-white lg:mt-0 lg:ml-6 our-vision-txt lg:w-1/2"
               >
-                A homage to the creation of Pavel Durov, founder of TON - The Open
-                Network and Telegram, Resistance Dog ($REDO), is a symbolic
-                representation of our fight against censorship and freedom through
-                digital resistance. Created in 2018 by Durov, our logo is the
-                (un)official mascot of Telegram, and is at the forefront of
-                Telegram’s consistent efforts to battle censorship by governments
-                and multinational companies trying to restrict the ability of
-                people to express themselves freely in digital media.
+                At Trett, our vision is clear: everyone deserves a shot at
+                success, no matter their past. Our story begins with Trett, a
+                hardworking janitor who, through sheer perseverance, transformed
+                his life. From cleaning floors to launching his own memecoin,
+                Trett’s journey is a powerful testament to overcoming adversity.
               </div>
               <div>
                 <img
@@ -150,8 +175,7 @@
                 />
               </div>
             </div>
-         </div>
-         
+          </div>
         </div>
         <!-- end the vision -->
         <div class="outer">
@@ -160,7 +184,7 @@
           <div class="drop-shadow-lg right bg-blue-950"></div>
         </div>
         <!-- start the TOKENOMICS -->
-        <div class="md:pb-20 ">
+        <div class="md:pb-20">
           <div
             class="text-2xl font-extrabold text-center text-blue-400 lg:p-20 sm:text-3xl md:text-4xl lg:text-5xl"
           >
@@ -228,18 +252,38 @@
             TIRED TRETT ON TON
           </div>
           <div class="flex flex-wrap justify-center gap-4 main-icon-section">
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
-            <div
-              class="flex-shrink-0 w-12 h-12 bg-white rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-            ></div>
+            <div class="">
+              <a href="https://x.com/tiredtrett">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
+            <div class="">
+              <a href="https://t.me/trettonton">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
+            <div class="">
+              <a href="https://x.com/tiredtrett">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
+            <div class="">
+              <a href="https://x.com/tiredtrett">
+                <img
+                  src="img/tg.png"
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
+            </div>
           </div>
           <div class="pt-6 -normal text sm:text-sm md:text-sm lg:text-sm">
             Copyright ® 2024 TIRED TRETT. All Rights Reserved
@@ -255,10 +299,35 @@
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-      AOS.init();
-    </script>    
+      AOS.init({
+        once: false, // Whether animation should happen only once - while scrolling down
+        offset: 200, // Offset (in px) from the original trigger point
+        delay: 0, // Delay (in ms) before the animation starts
+        duration: 1000, // Duration (in ms) of the animation
+      });
+      AOS.init({
+        once: false,
+        offset: 200,
+        delay: 0,
+        duration: 1000,
+      });
 
-    <script>
+      let lastScrollTop = 0;
+      window.addEventListener("scroll", function () {
+        let st = window.pageYOffset || document.documentElement.scrollTop;
+        let element = document.getElementById("animatedElement");
+
+        if (st > lastScrollTop) {
+          // Scrolling down
+          element.setAttribute("data-aos", "fade-up"); // Replace with your down-scroll animation
+        } else {
+          // Scrolling up
+          element.setAttribute("data-aos", "fade-down"); // Replace with your up-scroll animation
+        }
+        lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+
+        AOS.refresh(); // Refresh AOS to apply the new animation
+      });
       // Remove loading overlay once content is fully loaded
       window.addEventListener("load", () => {
         document.body.classList.add("loaded");
