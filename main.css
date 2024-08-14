@@ -11,7 +11,7 @@
   text-align: center;
   opacity: 0; /* Start with zero opacity */
   visibility: hidden; /* Start hidden */
-  transition: opacity 1s ease, visibility 12s ease; /* Smooth transition over 30 seconds */
+  transition: opacity 4s ease, visibility 10s ease; /* Smooth transition over 30 seconds */
 }
 .overlay.active {
   display: flex;
@@ -29,7 +29,7 @@
 }
 
 .animal-active {
-  animation: scaleUpDefault 4s ease-out forwards;
+  animation: scaleUpDefault 10s ease-out forwards;
 }
 
 /* @keyframes scaleUpMobile {
@@ -70,7 +70,7 @@
 .zoom-text:hover {
   color: #e2d1e2; /* Change text color to neon pink */
   animation: pulse 1.5s infinite; /* Apply pulsating animation on hover */
-  transform: scale(1.05); /* Scale up and rotate */
+  transform: scale(1.10); /* Scale up and rotate */
 }
 @keyframes pulse {
   0% {
@@ -80,7 +80,7 @@
     text-shadow: 0 0 1px #00ffff, 0 0 10px #39ca6e, 0 0 10px #dc0ea5, 0 0 10px #00ffff;
   }
   100% {
-    text-shadow: 0 0 2px #bc1abc, 0 0 8px #2a22bd, 0 3px #7dcc23, 0 0 20px #e7c75d;
+    text-shadow: 0 0 2px #bc1abc, 0 0 8px #2a22bd, 0 3px #7dcc23, 0 0 10px #e7c75d;
   }
 }
 
