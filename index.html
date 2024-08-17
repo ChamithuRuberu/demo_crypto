@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TRETT</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="main.css" rel="stylesheet" />
-
-  
-</head>
-<body class="overflow-hidden bg-gray-100">
-  <div class="fixed inset-0 flex items-center justify-center gif-container">
-    <img
-      id="animal"
-      src="img/landing.gif"
-      alt="Description of Image"
-      class="object-cover w-full h-full gif animal"
-    />
-  </div>  
-  <div id="overlay" class="overlay">
-    <div class="text-sm zoom-text sm:text-base md:text-lg lg:text-xl xl:text-2xl"><a href="home.html">Let's clean up ton!</a></div>
-  </div>
-  <script>
-    // JavaScript to show the overlay after 4 seconds
-    setTimeout(() => {
-      document.getElementById('overlay').classList.add('active');
-      document.getElementById('animal').classList.add('animal-active');
-    }, 20); // 4 seconds
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRETT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="main.css" rel="stylesheet" />
+    <link rel="icon" type="image/gif" href="/img/hero.png" />
+  </head>
+  <body class="overflow-hidden bg-gray-100">
+    <div class="fixed inset-0 flex items-center justify-center gif-container">
+      <img
+        id="animal"
+        src="img/landing.gif"
+        alt="Description of Image"
+        class="object-cover w-full h-full gif animal"
+      />
+    </div>
+    <div id="overlay" class="overlay">
+      <div
+        class="text-sm zoom-text sm:text-base md:text-lg lg:text-xl xl:text-2xl"
+      >
+        <a href="home.html">Let's clean up ton!</a>
+      </div>
+    </div>
+    <script>
+      // JavaScript to show the overlay after 4 seconds
+      setTimeout(() => {
+        document.getElementById("overlay").classList.add("active");
+        document.getElementById("animal").classList.add("animal-active");
+      }, 20); // 4 seconds
+    </script>
+  </body>
 </html>
