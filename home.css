@@ -10,19 +10,20 @@
 .inner-outer {
     padding: 0;
     position: relative;
+    clip-path: polygon(0% 5%, 50% 0%, 100% 5%, 100% 100%, 0% 100%);
   }
   
   /* Adjust clip-path for smaller screens */
   @media (max-width: 768px) {
     .inner-outer {
-      /* clip-path: polygon(0% 3%, 50% 0%, 100% 3%, 100% 100%, 0% 100%); */
+      clip-path: polygon(0% 3%, 50% 0%, 100% 3%, 100% 100%, 0% 100%);
     }
   }
   
   /* Adjust clip-path for extra small screens */
   @media (max-width: 375px) {
     .inner-outer {
-      /* clip-path: polygon(0% 1%, 50% 0%, 100% 1%, 100% 100%, 0% 100%); */
+      clip-path: polygon(0% 1%, 50% 0%, 100% 1%, 100% 100%, 0% 100%);
     }
   }
 

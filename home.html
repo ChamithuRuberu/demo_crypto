@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Crypto Alliance</title>
+    <title>TRETT</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
@@ -17,57 +17,62 @@
     <div class="loading-overlay">
       <div class="spinner"></div>
     </div>
+
     <div
-      class="w-screen h-screen bg-black bg-no-repeat bg-cover"
-      style="background-image: url('./img/bg.gif')"
+      class="min-h-screen w-screen main-outer bg-blend-exclusion sm:bg-repeat-round bg-black bg-[url('./img/bg.gif')]"
     >
       <div
         class="w-full p-6 mx-auto font-extrabold text-white rounded-lg pt-14 hero-section sm:w-3/4 md:w-1/2 lg:w-1/2 fade-in"
       >
-        <!-- White Rectangle Placeholder -->
-        <div class="flex justify-center mb-4">
-          <div
-            class="flex items-center justify-center h-64 bg-white rounded-lg w-72"
-          >
-            <!-- Optional: Add text or other content inside the rectangle -->
-          </div>
+        <div
+          id="animatedElement"
+          class="flex items-center justify-center pt-2 mx-auto mb-4 rounded-full hero-image"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="200"
+          data-aos-easing="ease-out-cubic"
+        >
+          <img
+            src="img/hero.png"
+            alt="Description of Image"
+            class="object-fill h-64 w-72"
+          />
         </div>
-
         <div class="pb-10 text-center main-section">
-          <div class="mb-4 main-text sm:text-3xl md:text-4xl lg:text-5xl">
-            The Crypto Alliance
+          <div
+            class="mb-4 shadow-lg main-text sm:text-3xl md:text-4xl lg:text-5xl"
+          >
+            TIRED TRETT ON TON
           </div>
           <div class="flex flex-wrap justify-center gap-4 main-icon-section">
-            <div>
-              <a href="https://x.com/thealliance_sol">
+            <div class="">
+              <a href="https://x.com/tiredtrett">
                 <img
                   src="img/x.png"
-                  alt="X"
-                  class="flex-shrink-0 w-12 h-12 rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-                />
-              </a>
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
             </div>
-            <div>
-              <a href="https://t.me/+CX4Ia0Z6hXU4ZTUx">
+            <div class="">
+              <a href="https://t.me/trettonton">
                 <img
                   src="img/tg.png"
-                  alt="Telegram"
-                  class="flex-shrink-0 w-12 h-12 rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
-                />
-              </a>
+                  alt="Description of Image"
+                  class="flex-shrink-0 w-12 h-12rounded-md sub-icon sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+              /></a>
             </div>
           </div>
         </div>
       </div>
       <!-- start the inner outer -->
       <div
-        class="flex flex-col w-full mx-auto bg-gradient-to-t from-gray-950 via-gray-950 to-gray-700 inner-outer slide-in-bottom"
+        class="flex flex-col w-full mx-auto bg-gray-900 inner-outer slide-in-bottom"
       >
         <!-- start the HOW TO BUY -->
-        <div class="lg:p-10">
-          <div class="text-center lg:p-10 sub-section sm:p-10">
+        <div class="lg:p-20">
+          <div class="text-center lgp-10 sub-section sm:p-10">
             <div
-              class="p-10 m-10 text-2xl font-extrabold text-blue-400 main-sub-text sm:text-3xl md:text-4xl lg:text-5xl"
+              class="p-10 m-10 text-2xl font-extrabold text-blue-400 shadow-lg main-sub-text sm:text-3xl md:text-4xl lg:text-5xl"
             >
               HOW TO BUY
             </div>
@@ -79,8 +84,8 @@
                   <div class="flip-card">
                     <div class="flip-card-front">
                       <img
-                        src="img/1.png"
-                        alt="Step 1"
+                        src="img/1.gif"
+                        alt="Description of Image"
                         class="object-cover w-full h-full"
                       />
                     </div>
@@ -89,9 +94,10 @@
                     >
                       <p class="p-5 text-lg font-bold text-white">
                         <span class="block mb-2 text-blue-300">STEP 1</span>
-                        buy some
-                        <span class="font-bold text-green-400">$SOL</span> into
-                        with your phantom wallet
+                        To swap your
+                        <span class="font-bold text-green-400">$TON</span> into
+                        <span class="font-bold text-yellow-400">$TRETT</span>,
+                        You will need a wallet! You can use: Tonkeeper
                       </p>
                     </div>
                   </div>
@@ -104,8 +110,8 @@
                   <div class="flip-card">
                     <div class="flip-card-front">
                       <img
-                        src="img/2.png"
-                        alt="Step 2"
+                        src="img/2.gif"
+                        alt="Description of Image"
                         class="object-cover w-full h-full"
                       />
                     </div>
@@ -114,13 +120,12 @@
                     >
                       <p class="container p-5 text-lg font-bold text-white">
                         <span class="block mb-2 text-blue-300">STEP 2</span>
-                        go on
-                        <span class="font-bold text-green-400"
-                          >dexscreener</span
-                        >
-                        to the
-                        <span class="font-bold text-yellow-400">moonshot,</span>
-                        home page
+                        Bridge your
+                        <span class="font-bold text-green-400">$TON</span> from
+                        other chains Websites: Fixedfloat,
+                        <span class="font-bold text-yellow-400">$Rocketx,</span>
+                        or using a
+                        <span class="font-bold text-yellow-400">CEX</span>
                       </p>
                     </div>
                   </div>
@@ -133,8 +138,8 @@
                   <div class="flip-card">
                     <div class="flip-card-front">
                       <img
-                        src="img/3.png"
-                        alt="Step 3"
+                        src="img/3.gif"
+                        alt="Description of Image"
                         class="object-cover w-full h-full"
                       />
                     </div>
@@ -145,11 +150,11 @@
                         class="text-lg font-semibold leading-relaxed text-white"
                       >
                         <span class="block mb-2 text-blue-300">STEP 3</span>
-                        Use your swap to
-
-                        <span class="font-bold text-yellow-400"
-                          >“The Crypto Alliance”</span
-                        >.
+                        Use your
+                        <span class="font-bold text-green-400">$TON</span> and
+                        swap it to
+                        <span class="font-bold text-yellow-400">$TRETT</span>.
+                        You can use Ston.fi to swap.
                       </p>
                     </div>
                   </div>
@@ -162,7 +167,7 @@
 
         <div class="flex items-center justify-center p-6 md:p-10 lg:p-20">
           <div class="flex-grow h-1 shadow-sm bg-blue-950"></div>
-          <div class="mx-4 text-center text-blue-950">The Crypto Alliance</div>
+          <div class="mx-4 text-center text-blue-950">TRETT</div>
           <div class="flex-grow h-1 shadow-sm bg-blue-950"></div>
         </div>
 
@@ -171,9 +176,9 @@
           <div class="px-4 mx-auto lg:px-20">
             <!-- Title -->
             <div
-              class="pt-10 mb-4 text-2xl font-extrabold text-blue-400 main-sub-text sm:text-3xl md:text-4xl lg:text-5xl lg:pb-20"
+              class="pt-20 mb-4 text-2xl font-extrabold text-blue-400 shadow-lg main-sub-text sm:text-3xl md:text-4xl lg:text-5xl lg:pb-20"
             >
-              Crypto Alliance Vision
+              TRETT VISION
             </div>
             <!-- Content -->
             <div class="animation-content">
@@ -183,25 +188,21 @@
                 class="flex flex-col p-6 lg:flex-row lg:gap-8 lg:items-center lg:justify-between md:p-2"
               >
                 <div class="our-vision-gif lg:w-1/2">
-                  <!-- <img
+                  <img
                     src="img/vision.gif"
-                    alt="Vision"
+                    alt="Description of Image"
                     class="object-contain w-full h-64 sm:h-72 md:h-80 lg:h-96"
-                  /> -->
-                  <div class="flex justify-center mb-4">
-                    <div
-                      class="flex items-center justify-center h-64 bg-white rounded-lg w-72"
-                    >
-                      <!-- Optional: Add text or other content inside the rectangle -->
-                    </div>
-                  </div>
+                  />
                 </div>
                 <div
                   class="mt-6 text-sm font-extrabold text-white lg:mt-0 lg:ml-6 lg:w-1/2 md:text-base lg:text-lg xl:text-xl"
                 >
-                  We are all about transparency and gearing up for the next wave
-                  in crypto. A dream team of Trump, Elon, RFK, and JD Vance are
-                  ready to push crypto to new heights come November 8th, 2024.
+                  At Trett, our vision is clear: everyone deserves a shot at
+                  success, no matter their past. Our story begins with Trett, a
+                  hardworking janitor who, through sheer perseverance,
+                  transformed his life. From cleaning floors to launching his
+                  own memecoin, Trett’s journey is a powerful testament to
+                  overcoming adversity.
                 </div>
               </div>
 
@@ -211,48 +212,200 @@
                 class="flex flex-col-reverse p-6 lg:flex-row lg:gap-8 lg:items-center lg:justify-between md:p-2"
               >
                 <div
-                  class="mt-6 text-sm font-extrabold text-white shadow-lg lg:mt-0 lg:mr-6 lg:w-1/2 md:text-base lg:text-lg xl:text-xl"
+                  class="mt-6 text-sm font-extrabold text-white shadow-lg lg:mt-0 lg:ml-6 lg:w-1/2 md:text-base lg:text-lg xl:text-xl"
                 >
-                  The Crypto Alliance will be an integral part of the future,
-                  with an emphasis on freedom, financial independence, and
-                  breaking free from the control of centralized institutions.
+                  We’re excited to build on the TON blockchain, the
+                  revolutionary creation by Pavel Durov, founder of Telegram.
+                  Just as Telegram has stood as a beacon for freedom of
+                  expression and a relentless fight against censorship, we honor
+                  this legacy with our memecoin. By leveraging the TON
+                  blockchain, we align with a platform dedicated to empowering
+                  voices and championing digital resistance. Our memecoin pays
+                  tribute to Telegram’s commitment to open communication and
+                  resistance against barriers to free speech.
                 </div>
-                <div class="our-vision-gif lg:w-1/2">
-                  <!-- <img
-                    src="img/gif1.gif"
-                    alt="Vision"
-                    class="object-contain w-full h-64 sm:h-72 md:h-80 lg:h-96"
-                  /> -->
-                  <div class="flex justify-center mb-4">
-                    <div
-                      class="flex items-center justify-center h-64 bg-white rounded-lg w-72"
-                    >
-                      <!-- Optional: Add text or other content inside the rectangle -->
-                    </div>
-                  </div>
+                <div class="lg:w-1/2">
+                  <img
+                    src="img/vision-v2.gif"
+                    alt="Description of Image"
+                    class="object-contain w-full h-64 sm:h-72 md:h-96 lg:h-full"
+                  />
                 </div>
               </div>
-
-              <!-- Third Content Block -->
-              <div
-                data-aos="slide-right"
-                class="flex flex-col p-6 lg:flex-row lg:gap-8 lg:items-center lg:justify-between md:p-2"
-              ></div>
             </div>
           </div>
         </div>
+
+        <!-- end the vision -->
+        <div class="p-20 outer">
+          <div class="shadow-sm left bg-blue-950"></div>
+          <div class="shadow-sm text-blue-950">TRETT</div>
+          <div class="drop-shadow-lg right bg-blue-950"></div>
+        </div>
+        <!-- start the TOKENOMICS -->
+        <div class="md:pb-20">
+          <div class="container px-4 mx-auto lg:px-20">
+            <div class="mb-6 font-extrabold text-center text-blue-400 lg:mb-12">
+              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                TOKENOMICS
+              </h1>
+            </div>
+            <div class="flex flex-wrap justify-center">
+              <img
+                src="img/Tokenomics.gif"
+                alt="Description of Image"
+                class="w-full h-auto sm:w-1/2 md:w-2/3 lg:w-1/2"
+              />
+            </div>
+          </div>
+        </div>
+
         <div class="flex items-center justify-center p-6 md:p-10 lg:p-20">
           <div class="flex-grow h-1 shadow-sm bg-blue-950"></div>
-          <div class="mx-4 text-center text-blue-950">The Crypto Alliance</div>
+          <div class="mx-4 text-center text-blue-950">TRETT</div>
           <div class="flex-grow h-1 shadow-sm bg-blue-950"></div>
         </div>
-      </div>
-      <div
-        class="items-center w-screen text-sm text-center text-black bg-white pflext-6 sm:text-base md:text-lg lg:text-sm"
-      >
-        Copyright ® 2024 TIRED TRETT. All Rights Reserved
+
+        <div class="md:pb-20">
+          <div class="container px-4 mx-auto lg:px-20">
+            <div class="mb-6 font-extrabold text-center text-blue-400 lg:mb-12">
+              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                MY STORY
+              </h1>
+            </div>
+            <div
+              class="container p-5 text-sm font-bold text-center text-white md:text-base lg:text-lg xl:text-xl"
+            >
+              In the gritty streets of Brooklyn, Tired Trett, an opossum with a
+              heart full of resilience, navigates life with his four mischievous
+              adopted sons: Pepe, a cunning frog; Brett, a mysterious blue
+              creature; Andy, a rambunctious dog; and WOLF, a spirited landwolf.
+              Trett's journey as a single father began when his wife left,
+              leaving him to raise the boys alone. Their home is a makeshift
+              haven near a garbage can, where they survive by scavenging for
+              food and treasures. Their possessions tell a story of hardship and
+              hope: Pepe's half-broken computer, Andy's almost completely
+              ripped-apart book, Brett's collection of mismatched shoes, and
+              WOLF's prized, slightly functional flashlight. Among their
+              discoveries is ZEUS, an autistic dog they found behind a trashcan
+              when the children were young. Moved by compassion, they took ZEUS
+              in, not wanting the helpless dog to die alone. ZEUS has since kind
+              off become a part of their family. Trett, known as "Tired Trett"
+              for his perpetual exhaustion, juggles multiple jobs to keep his
+              boys fed and out of trouble. Despite the relentless grind, he
+              works tirelessly as a janitor at TON Headquarters, his weary eyes
+              always vigilant for his sons' next misadventure. The boys, known
+              as the "Boys Club Gang," often add to Trett's woes by stealing
+              money from his wallet to gamble on degenerate memecoins and play
+              dice on the streets. Yet, through sheer perseverance and an
+              indomitable spirit, Trett manages to create his own memecoin,
+              aptly named Tired Trett, on the TON chain. This stroke of
+              ingenuity turns their family's fortunes around, offering a glimmer
+              of hope amidst the chaos of their lives. Despite the constant
+              struggle and the boys' endless antics, Tired Trett's unwavering
+              love and determination shine through, binding their unconventional
+              family together against all odds.
+            </div>
+          </div>
+        </div>
+
+        <!-- end the TOKENOMICS -->
+        <div class="flex items-center justify-center p-6 md:p-10 lg:p-20">
+          <div class="flex-grow h-1 shadow-sm bg-blue-950"></div>
+          <div class="mx-4 text-center text-blue-950">TRETT</div>
+          <div class="flex-grow h-1 shadow-sm bg-blue-950"></div>
+        </div>
+
+        <!-- start join the family -->
+        <div class="sm:mt-10">
+          <div class="container px-4 mx-auto">
+            <div
+              class="flex flex-col items-center pt-10 space-y-6 sm:pt-15 md:pt-20"
+            >
+              <div
+                class="text-2xl font-extrabold text-center text-blue-400 shadow-lg sm:text-3xl md:text-4xl lg:text-5xl"
+              >
+                JOIN THE FAMILY
+              </div>
+              <img
+                src="img/last.gif"
+                alt="Description of Image"
+                class="object-cover w-full h-48 sm:w-2/3 sm:h-64 md:w-1/2 md:h-80 lg:h-96"
+              />
+            </div>
+          </div>
+
+          <div
+            class="container px-4 py-8 mx-auto sm:px-6 lg:px-15 sm:py-10 lg:py-20"
+          >
+            <div
+              class="p-5 text-sm font-bold leading-relaxed text-center text-white md:text-base lg:text-lg xl:text-xl"
+            >
+              Joining the Trett family means aligning yourself with a vision
+              that values determination and innovation. It’s an opportunity to
+              be part of a community that believes in breaking barriers and
+              achieving extraordinary success, no matter where you start.
+              Together, we can drive forward a future where every challenge is
+              met with unwavering resolve and every success is shared.
+            </div>
+          </div>
+        </div>
+
+        <!-- stop join the family -->
       </div>
       <!-- end the inner outer -->
+      <div class="bg-black bg-cover bg-[url('./img/bg.gif')]">
+        <div
+          class="w-screen pt-5 mx-auto font-extrabold text-white rounded-lg hero-section sm:w-3/4 md:w-1/2 lg:w-1/2 fade-in"
+        >
+          <div
+            class="flex items-center justify-center pt-16 mx-auto mb-4 rounded-full hero-image lg:pt-5"
+          >
+            <img
+              src="img/hero.png"
+              alt="Description of Image"
+              class="object-contain w-48 h-48 sm:h-56 sm:w-56 md:h-72 md:w-72 lg:h-80 lg:w-80 sm:pt-0"
+            />
+          </div>
+          <div class="pb-10 text-center">
+            <div
+              class="mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl main-text"
+            >
+              TIRED TRETT ON TON
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 main-icon-section">
+              <div>
+                <a href="https://x.com/tiredtrett">
+                  <img
+                    src="img/x.png"
+                    alt="Description of Image"
+                    class="w-12 h-12 rounded-md sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://t.me/trettonton">
+                  <img
+                    src="img/tg.png"
+                    alt="Description of Image"
+                    class="w-12 h-12 rounded-md sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18"
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              class="pt-6 text-sm text-blue-300 break-words sm:text-base md:text-lg lg:text-xl"
+            >
+              ca : EQCBRX3u_WaGKU0fu1Kqdq1NwLUJUczGNbUKED25IAnce_-p
+            </div>
+            <div
+              class="pt-6 text-sm text-white sm:text-base md:text-lg lg:text-xl"
+            >
+              Copyright ® 2024 TIRED TRETT. All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
